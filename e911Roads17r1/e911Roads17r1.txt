@@ -1,0 +1,867 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Rhode Island Enhanced 911 Uniform Emergency Telephone System (hereinafter called "RI E-911")
+      Originator: AK Associates
+      Publication_Date: 20170217
+      Title: RI E-911 Road Centerlines; e911Roads17r1
+      Edition: 201702
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: 311 Danielson Pike, North Scituate, RI 02857
+        Publisher: AK Associates on behalf of RI E-911
+      Other_Citation_Details: Suggested bibliographic reference: RIGIS, 2017. RI E-911 Road Centerlines; e911Roads17r1. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 27 February 2017).
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Rhode Island Geographic Information System (RIGIS)
+          Publication_Date: 1993
+          Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: These data were originally developed and designed for Rhode Island Enhanced 9-1-1 purposes only. These data contain street center lines and address ranges for all highways, roads, and streets for the entire state of Rhode Island. AK Associates conflated this data from the existing road data developed by MicroDATA GIS, RI DOT, 2008 Pictometry and data provided by Municipal Agencies for Rhode Island Enhanced 9-1-1 (RI E-911).
+    Purpose: These data were developed and are maintained in order to provide an accurate spatial reference for RI E-911 telecommunicators. These data are provided to RIGIS for redistribution as a public service by RI E-911.
+    Supplemental_Information:
+      Portions of this data set were collected as early as 2001. Inaccuracies do exist in these data and are therefore under constant revision. Any discrepancies, inaccuracies or inconsistencies recognized in these data should be reported to the pertinent municipality who should alert RI E-911.
+      Users are also encouraged to email ri911gis@akassociates911.com with any suggested updates for this actively maintained dataset.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199704
+        Ending_Date: 20170217
+    Currentness_Reference: publication date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.864998
+      East_Bounding_Coordinate: -71.107636
+      North_Bounding_Coordinate: 42.018846
+      South_Bounding_Coordinate: 41.147935
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: E911
+      Theme_Keyword: transportation
+      Theme_Keyword: roads
+      Theme_Keyword: highways
+      Theme_Keyword: streets
+      Theme_Keyword: road centerline
+    Place:
+      Place_Keyword_Thesaurus: none
+      Place_Keyword: USA
+      Place_Keyword: Rhode Island
+      Place_Keyword: Northeast
+      Place_Keyword: New England
+  Access_Constraints: None
+  Use_Constraints:
+    This data is designed and maintained for E-911 mapping software. It is not intended for any other purpose.
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: AK Associates
+        Contact_Person: Kevin Baillargeon
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing
+        Address: 311 Danielson Pike
+        City: North Scituate
+        State_or_Province: Rhode Island
+        Postal_Code: 02857
+        Country: USA
+      Contact_Electronic_Mail_Address: KBaillargeon@AKAssociates911.com
+      Contact_Instructions: Email preferred.
+  Data_Set_Credit: RI E-911, MicroDATA GIS, and AK Associates
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: These data is subject to constant revision and updating. An updated list of the Master Street Address Guide is downloaded monthly. This list is matched against existing GIS data in RI E-911's database. This alerts E-911 personnel to new or altered road names and address ranges. AK Associates' GIS department then matches the missing roads to their exact spatial location. This is done via field work, cross referencing with the latest RI DOT data, or eliciting the assistance of the pertinent municipality.
+  Logical_Consistency_Report: This dataset is considered to be topologically clean.
+  Completeness_Report: Line accuracy standards for the original data conversion were set as being within the confines of the visible road surface. Most road centerlines are expected to fall within about 3 to 5 meters of their true ground locations (except in cases where GPS field verification has not yet occurred and the road locations were not clearly visible on the photos or the road has been built since the orthophotos were taken). To improve connectivity and create 4-way road intersections, where the crossing street's centerline was offset slightly, short road sections (generally less than 50 feet) were removed and the crossing street's centerlines were edited to meet at a single node. New road locations were collected and inaccuracies were rectified using GPS receivers in the field. These centerlines are generally expected to be within 5 meters of its true location, but variations in GPS data collection quality can create variable results. This dataset includes all known new roads built between 2001 and the date this dataset was shared with RIGIS.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Original GIS source data from RIGIS (s44trd97) had a horizontal accuracy of plus or minus 3 to 5 meters, verified by RIGIS from check plots of all linework overlayed on orthophotos. In municipalities where field-verification has been completed by microDATA GIS,  orthophoto-based road centerlines have been checked and new construction road centerlines have been added within the original positional accuracy standards using vehicle-mounted GPS antennas & receivers, real-time differentially corrected (WAAS correction) .
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value: 15 feet
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rhode Island Enhanced 911 Uniform Emergency Telephone System
+          Publication_Date: 2012
+          Title: RI E-911 Master Street Address Guide (MSAG)
+          Geospatial_Data_Presentation_Form: tabular digital data
+      Type_of_Source_Media: tabular digital data
+      Source_Citation_Abbreviation: RIE911_MSAG
+      Source_Contribution: attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rhode Island Department of Transportation
+          Publication_Date: 1998
+          Title: 1997 RIDOT 1:5,000 Digital Orthophotography
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Providence, RI
+            Publisher: Rhode Island Department of Transportation
+          Online_Linkage: http://www.edc.uri.edu/rigis
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Rhode Island Geographic Information System (RIGIS)
+              Publication_Date: 1993
+              Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+              Online_Linkage: http://www.edc.uri.edu/rigis
+      Source_Scale_Denominator: 5000
+      Type_of_Source_Media: remote-sensing image
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 199704
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: RIGIS_orthos_1997
+      Source_Contribution: spatial information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Chas. H. Sells Inc
+          Originator: Rhode Island Department of Transportation
+          Publication_Date: 20051115
+          Title: 2003-2004 RIDOT 1:5,000 Digital True Color Orthophotography
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Online_Linkage: http://www.edc.uri.edu/rigis
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Rhode Island Geographic Information System (RIGIS)
+              Publication_Date: 1993
+              Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+              Online_Linkage: http://www.edc.uri.edu/rigis
+      Source_Scale_Denominator: 5000
+      Type_of_Source_Media: remote-sensing image
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Multiple_Dates/Times:
+            Single_Date/Time:
+              Calendar_Date: 20030328
+            Single_Date/Time:
+              Calendar_Date: 20030414
+            Single_Date/Time:
+              Calendar_Date: 20040408
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: RIGIS_orthos_2003-04
+      Source_Contribution: spatial information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Pictometry International Corporation
+          Originator: Rhode Island Enhanced 911 Uniform Emergency Telephone System
+          Publication_Date: 2008
+          Title: Pictometric Licensed Images (Spring 2008)
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: North Providence, RI
+            Publisher: Rhode Island Enhanced 911 Uniform Emergency Telephone System
+          Online_Linkage: http://www.edc.uri.edu/atlas
+      Type_of_Source_Media: remote-sensing image
+      Source_Citation_Abbreviation: Pictometry_2008
+      Source_Contribution: spatial information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: National Grid (formerly Narragansett Electric)
+          Originator: Rhode Island Department of Transportation
+          Originator: Intermap Corporation
+          Publication_Date: 1998
+          Title: Rhode Island Roads
+          Geospatial_Data_Presentation_Form: vector digital data
+          Publication_Information:
+            Publication_Place: Providence, RI
+            Publisher: Rhode Island Department of Transportation
+          Online_Linkage: http://www.edc.uri.edu/rigis
+      Source_Scale_Denominator: 5000
+      Type_of_Source_Media: vector digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1997
+      Source_Citation_Abbreviation: s44trd97
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: microDATA GIS, Inc. for the State of Rhode Island, Dept. of Administration, E 9-1-1 Uniform Emergency Telephone System Division (hereinafter called "RI-911")
+          Publication_Date: 20071211
+          Title: E911 Road Centerlines; e911rds07a
+          Edition: 2006
+          Geospatial_Data_Presentation_Form: vector digital data
+          Series_Information:
+            Series_Name: E911 Road centerlines from 1:5000 orthophotos and GPS
+            Issue_Identification: 2006
+          Publication_Information:
+            Publication_Place: St. Johnsbury, VT 05819
+            Publisher: MicroDATA GIS, Inc.
+          Online_Linkage: http://www.edc.uri.edu/rigis
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: Rhode Island Geographic Information System (RIGIS)
+              Publication_Date: 1993
+              Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+              Online_Linkage: http://www.edc.uri.edu/rigis
+      Source_Scale_Denominator: 5000
+      Type_of_Source_Media: vector digital data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 199704
+            Ending_Date: 200712
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: e911rds07a
+      Source_Contribution: spatial and attribute information
+    Process_Step:
+      Process_Description:
+        These data were originally developed and designed for Enhanced 9-1-1 purposes only. The E911\RDS data was originally developed using road centerlines from RIGIS & RIDOT (s44trd97). The original data was digitized in AutoCAD by Intermap Corp. for Narragansett Electric, a National Grid company, from 1:5000 scale spring 1997 photography. RI-DOT converted from AutoCAD DXF file format to ArcInfo coverage file format. In 2001, MicroDATA GIS converted the data from ArcInfo coverage to ESRI Shapefile format, and the projection from State Plane Feet to Geographic Decimal Degrees. Road name, address range, route number, and functional class attributes were conflated by MicroDATA GIS for RI-911 from 1:24,000 scale U.S. Census TIGER line roads, that had been enhanced by RIGIS & RIDOT. These road centerlines were audited by MicroDATA GIS to verify attribute accuracy, and route connectivity.
+        Beginning in November 2001, proof plots were provided by RI E-911 to the E-911 coordinator for each municipality, and checked for road name accuracy. A listing of road names in the telephone company Master Street Address Guide (MSAG) that were missing in the GIS was provided with the proof plot. Where possible, missing roads from the MSAG listing were identified by the municipality from unnamed roads in the GIS. If possible, an approximate location was compiled on the proof plot by the municipality for the remaining missing MSAG roads. These new roads were digitized by MicroDATA GIS, with locations approximated from the proof plots, digital 1:5000 scale orthophotos, or other maps and data provided by the municipality.
+        In December 2001, MicroDATA GIS and RI-911 began field-verifying all roads, road names, and sites; and adding new roads or sites using GPS. Year 1 of the project included field-verification in the municipalities of: Exeter, Glocester, and Tiverton. Year 2 of the project included field-verification in the municipalities of: South Kingstown, East Providence, North Providence (and Centerdale) Year 3 of the project included field-verification in the municipalities of: Newport, Middletown Year 4 of the project included field-verification in the municipalities of: Providence, West Warwick, Warwick Year 5 of the project included field-verification in the municipalities of: Cranston, Pawtucket, Narragansett, Woonsocket On a daily basis, verification data from the field was imported into the master data set, and checked by a GIS technician. As field-verification was completed in each municipality, an extensive set of automated and manual quality control audits were made to verify attribute accuracy, and route connectivity. Geocoding was updated from the TIGER values to the actual address range of existing sites along each road segment, and audited to verify attribute accuracy. Assessment reports of site addressing, road geocoding, roads in the MSAG that were missing in the GIS, and roads in the GIS missing from the MSAG were provided by MicroDATA GIS to RI-911 for evaluation by each municipality. After a period of municipal review, GIS roads data was published for use by RI-911 in 2008.
+      Source_Used_Citation_Abbreviation: s44trd97, RIE911_MSAG, RIGIS_orthos_1997, RIGIS_orthos_2003-04
+      Process_Date: 2001-2008
+      Source_Produced_Citation_Abbreviation: e911rds07a
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jonathan E. Hall
+            Contact_Organization: MicroDATA GIS Inc.
+          Contact_Position: QA manager
+          Contact_Address:
+            Address_Type: mailing
+            Address: 1016 U.S. Route 5
+            City: St Johnsbury
+            State_or_Province: VT
+            Postal_Code: 05819
+            Country: US
+          Contact_Voice_Telephone:
+          Contact_Electronic_Mail_Address: jhall@microdatagis.com
+    Process_Step:
+      Process_Description:
+        Beginning in 2008 AK Associates took over E-911's GIS maintenance and implementation. AK Associates continues MicroDATA's quality assurance routines by way of MSAG and ALI audits. These monthly reports are used to alert GIS personnel of new and missing GIS data. 2008 Pictometry images were employed to locate roads that were constructed or modified since the last orthophotographs were collected in 2003-04. AK Associates has increased the level of municipal interaction through having scheduled weekly meetings with local GIS Liaisons. This allows communities and E-911 to proactively manage new developments and alleviate existing problems.
+        Using MicroDATAs x9GIS software in concert with vehicle mounted GPS equipment, AK Associates' GIS personnel conducts field work in order to verify new and inaccurate data; illuminated byway MSAG and ALI audits.
+        In addition to the above mentioned QA and QC procedures, AK Associates also closely monitors 9-1-1 calls received into the PSAP (Public Safety Answering Point). Call takers generate Map Discrepancies based on inaccurate or unclear GIS data. These discrepancies are rectified on premises and in a timely manner.
+      Source_Used_Citation_Abbreviation: e911rds07a, Pictometry_2008, RIE911_MSAG
+      Process_Date: 2008-2017
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: AK Associates
+            Contact_Person: Kevin Baillargeon
+          Contact_Position: GIS Analyst
+          Contact_Address:
+            Address_Type: mailing
+            Address: 311 Danielson Pike
+            City: North Scituate
+            State_or_Province: Rhode Island
+            Postal_Code: 02857
+            Country: USA
+          Contact_Electronic_Mail_Address: KBaillargeon@AKAssociates911.com
+          Contact_Instructions: Email preferred.
+    Process_Step:
+      Process_Description: Data contributed to RIGIS by RI E-911 and AK Associates.  Metadata were reviewed, minor corrections made to formatting, RIGIS distribution information added.
+      Process_Date: 20170227
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: University of Rhode Island Environmental Data Center
+            Contact_Person: Erica Tefft
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+          Contact_Instructions: email preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 67437
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000007286382608384659
+          Ordinate_Resolution: 0.000000007286382608384659
+        Planar_Distance_Units: Foot_US
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: RI E-911 Road Centerlines
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: UpdateDate
+      Attribute_Definition: This date reflects the last time this feature was edited, updated or addressed by a GIS technician.
+    Attribute:
+      Attribute_Label: Comments
+      Attribute_Definition: Abbreviated description of property.
+    Attribute:
+      Attribute_Label: StreetID
+      Attribute_Definition: This is the unique identifier for a street segment, usually equal to the ObjectID. Splitting will cause new ObjectID's to be assigned to each segment, however the first segment (in the direction of addressing) keeps the original StreetID. It is assigned automatically.
+    Attribute:
+      Attribute_Label: RouteNumber
+      Attribute_Definition: This designates roads with assigned route numbers such as Interstate or State Highways
+    Attribute:
+      Attribute_Label: StreetClass
+      Attribute_Definition: This is the type of street. This is used for the Streets featureclass "class" symbology used by RIE911 software, and may not necessarily reflect the classification assigned by RIDOT. This feature is used to automatically generate Major Roads such as Interstate or State highways.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: Unknown
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Town arterial
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Town major collector
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Town medium volume
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: Town low/seasonal
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: State Forest Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: National Forest Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 7
+          Enumerated_Domain_Value_Definition: Legal Trail
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 8
+          Enumerated_Domain_Value_Definition: Private Road-No Show
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: Private Road
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 10
+          Enumerated_Domain_Value_Definition: Driveway (put in DW)
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 11
+          Enumerated_Domain_Value_Definition: Other State
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 16
+          Enumerated_Domain_Value_Definition: Emer. U turn
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 17
+          Enumerated_Domain_Value_Definition: Town Divided
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 20
+          Enumerated_Domain_Value_Definition: County Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 25
+          Enumerated_Domain_Value_Definition: Cty Hwy Ex/En Ramp
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 29
+          Enumerated_Domain_Value_Definition: State Hwy Divided
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 30
+          Enumerated_Domain_Value_Definition: State Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 31
+          Enumerated_Domain_Value_Definition: State Hwy N Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 32
+          Enumerated_Domain_Value_Definition: State Hwy S Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 33
+          Enumerated_Domain_Value_Definition: State Hwy E Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 34
+          Enumerated_Domain_Value_Definition: State Hwy W Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 35
+          Enumerated_Domain_Value_Definition: State Hwy Ex/En Ramp
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 36
+          Enumerated_Domain_Value_Definition: State Hwy U Turn
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 37
+          Enumerated_Domain_Value_Definition: State Hwy Rest Area
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 39
+          Enumerated_Domain_Value_Definition: Federal Hwy Divided
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 40
+          Enumerated_Domain_Value_Definition: Federal Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 41
+          Enumerated_Domain_Value_Definition: Federal Hwy N Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 42
+          Enumerated_Domain_Value_Definition: Federal Hwy S Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 43
+          Enumerated_Domain_Value_Definition: Federal Hwy E Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 44
+          Enumerated_Domain_Value_Definition: Federal Hwy W Bound-State Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 45
+          Enumerated_Domain_Value_Definition: Fed. Hwy Ex/En Ramp-State
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 46
+          Enumerated_Domain_Value_Definition: Fed. Hwy Emer. U turn-State
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 47
+          Enumerated_Domain_Value_Definition: Fed. Hwy Rest Area-State
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 48
+          Enumerated_Domain_Value_Definition: Fed. Hwy Town Local
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 49
+          Enumerated_Domain_Value_Definition: Fed. Hwy U-Turn
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 50
+          Enumerated_Domain_Value_Definition: Interstate Hwy
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 51
+          Enumerated_Domain_Value_Definition: Int. Hwy N Bound-Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 52
+          Enumerated_Domain_Value_Definition: Int. Hwy S Bound-Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 53
+          Enumerated_Domain_Value_Definition: Int. Hwy E Bound-Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 54
+          Enumerated_Domain_Value_Definition: Int. Hwy W Bound-Limited Access
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 55
+          Enumerated_Domain_Value_Definition: Int. Hwy Ex/En Ramp
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 56
+          Enumerated_Domain_Value_Definition: Int Hwy Emer. U turn
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 57
+          Enumerated_Domain_Value_Definition: Int. Hwy Rest Area
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 59
+          Enumerated_Domain_Value_Definition: Interstate Hwy Other
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 65
+          Enumerated_Domain_Value_Definition: Ferry
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 70
+          Enumerated_Domain_Value_Definition: Federal Fish and Wildlife
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 75
+          Enumerated_Domain_Value_Definition: Bureau of Indian Affairs
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 83
+          Enumerated_Domain_Value_Definition: Proposed
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 91
+          Enumerated_Domain_Value_Definition: New, Class Unknown
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 92
+          Enumerated_Domain_Value_Definition: Military
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 93
+          Enumerated_Domain_Value_Definition: Public, Unknwn Class
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 95
+          Enumerated_Domain_Value_Definition: Class under review
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 96
+          Enumerated_Domain_Value_Definition: Discontinued Road
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 98
+          Enumerated_Domain_Value_Definition: Not a road
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 99
+          Enumerated_Domain_Value_Definition: Unknown
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+    Attribute:
+      Attribute_Label: SurfaceType
+      Attribute_Definition: designates surface type; paved, dirt, gravel, etc..
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: HARD SURFACE (PAVED)
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: CONCRETE
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: GRAVEL
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: SOIL OR DRAINED EARTH
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 5
+          Enumerated_Domain_Value_Definition: UNIMPROVED/PRIMITIVE
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 6
+          Enumerated_Domain_Value_Definition: IMPASSABLE/UNTRAVELED
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 9
+          Enumerated_Domain_Value_Definition: UNKNOWN
+          Enumerated_Domain_Value_Definition_Source: Rhode Island Department of Transportation
+    Attribute:
+      Attribute_Label: Miles
+      Attribute_Definition: This is the segment's length in miles.
+    Attribute:
+      Attribute_Label: Oneway
+      Attribute_Definition: This describes whether the traffic flow of the road is oneway. It is updated by the Oneway: list box which allows the choices of no (two-way), one way in direction addresses, one way in opposite direction of addresses.
+    Attribute:
+      Attribute_Label: RouteInclude
+      Attribute_Definition: This describes whether a segment should be included when building a measured polyline for addressing utilities. It is used for Connectivity and Segment Checks, Add a Site, show address, update streets geocoding (min/max) and addressing utilities functions.
+    Attribute:
+      Attribute_Label: PrimaryName
+      Attribute_Definition: This is the primary "official" or "legal" street name field, it should generally match what is on the street sign OR what the addressing authority's records indicate. This is kept in sync with the PrimaryName in the GeoNames table matching the GeoNameID.
+    Attribute:
+      Attribute_Label: ALIName
+      Attribute_Definition: This is the PrimaryName field with any variation of spelling found in the telephone company MSAG or ALI database. This is kept in sync with the ALIName in the GeoNames table. If there is no variation in spelling the ALIName equals the PrimaryName. This is used for parsing the name into PD, PT, SN ,ST ,SD if UseGeocoderforParsing is yes. ALI = Automatic Location Information
+    Attribute:
+      Attribute_Label: MCODE
+      Attribute_Definition: Municipal Code, relate item to Town Table (tbpoly.dbf)
+      Attribute_Definition_Source: e9GIS Town Table
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 100
+          Enumerated_Domain_Value_Definition: Barrington
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 101
+          Enumerated_Domain_Value_Definition: Bristol
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 102
+          Enumerated_Domain_Value_Definition: Burrillville
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 103
+          Enumerated_Domain_Value_Definition: Central Falls
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 104
+          Enumerated_Domain_Value_Definition: Charlestown
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 105
+          Enumerated_Domain_Value_Definition: Coventry
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 106
+          Enumerated_Domain_Value_Definition: Cranston
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 107
+          Enumerated_Domain_Value_Definition: Cumberland
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 108
+          Enumerated_Domain_Value_Definition: East Greenwich
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 109
+          Enumerated_Domain_Value_Definition: East Providence
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 110
+          Enumerated_Domain_Value_Definition: Exeter
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 111
+          Enumerated_Domain_Value_Definition: Foster
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 112
+          Enumerated_Domain_Value_Definition: Glocester
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 113
+          Enumerated_Domain_Value_Definition: Hopkinton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 114
+          Enumerated_Domain_Value_Definition: Johnston
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 115
+          Enumerated_Domain_Value_Definition: Johnston
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 116
+          Enumerated_Domain_Value_Definition: Lincoln
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 117
+          Enumerated_Domain_Value_Definition: Little Compton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 118
+          Enumerated_Domain_Value_Definition: Middletown
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 119
+          Enumerated_Domain_Value_Definition: Narragansett
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 120
+          Enumerated_Domain_Value_Definition: New Shoreham (Block Island)
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 121
+          Enumerated_Domain_Value_Definition: Newport
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 122
+          Enumerated_Domain_Value_Definition: North Kingstown
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 123
+          Enumerated_Domain_Value_Definition: North Providence
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 124
+          Enumerated_Domain_Value_Definition: North Smithfield
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 125
+          Enumerated_Domain_Value_Definition: Pawtucket
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 126
+          Enumerated_Domain_Value_Definition: Portsmouth
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 127
+          Enumerated_Domain_Value_Definition: Providence
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 128
+          Enumerated_Domain_Value_Definition: Richmond
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 129
+          Enumerated_Domain_Value_Definition: Scituate
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 130
+          Enumerated_Domain_Value_Definition: Smithfield
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 131
+          Enumerated_Domain_Value_Definition: South Kingstown
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 132
+          Enumerated_Domain_Value_Definition: Tiverton
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 133
+          Enumerated_Domain_Value_Definition: Warren
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 134
+          Enumerated_Domain_Value_Definition: Warwick
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 135
+          Enumerated_Domain_Value_Definition: West Greenwich
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 136
+          Enumerated_Domain_Value_Definition: West Warwick
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 137
+          Enumerated_Domain_Value_Definition: Westerly
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 138
+          Enumerated_Domain_Value_Definition: Woonsocket
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 139
+          Enumerated_Domain_Value_Definition: adjacent parts of Connecticut required to access Sites in Rhode Island
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 140
+          Enumerated_Domain_Value_Definition: adjacent parts of Massachusetts required to access Sites in Rhode Island
+    Attribute:
+      Attribute_Label: ZN
+      Attribute_Definition: This is the community's name based on the ZN from the related GeoNames table. This is updated by assigning a GeoName to the street segment. This is used for nothing, except the x9GIS user's reference.
+    Attribute:
+      Attribute_Label: LLO_A
+      Attribute_Definition: This is the Left Low Actual Range. This signifies the lowest existing house number assigned to the left side of a road.
+    Attribute:
+      Attribute_Label: RLO_A
+      Attribute_Definition: This is the Right Low Actual Range. This signifies the lowest existing house number assigned to the right side of a road.
+    Attribute:
+      Attribute_Label: LHI_A
+      Attribute_Definition: This is the Left High Actual Range. This signifies the highest existing house number assigned to the left side of a road.
+    Attribute:
+      Attribute_Label: RHI_A
+      Attribute_Definition: This is the Right High Actual Range. This signifies the highest existing house number assigned to the right side of a road.
+    Attribute:
+      Attribute_Label: LLO_M
+      Attribute_Definition: This is the Left Low Min/Max Range. This signifies the lowest possible house number assigned to the left side of a road. This feature is designed to allow for future addresses not yet mapped to be accurately geocoded.
+    Attribute:
+      Attribute_Label: RLO_M
+      Attribute_Definition: This is the Right Low Min/Max Range. This signifies the lowest possible house number assigned to the right side of a road. This feature is designed to allow for future addresses not yet mapped to be accurately geocoded.
+    Attribute:
+      Attribute_Label: LHI_M
+      Attribute_Definition: This is the Left High Min/Max Range. This signifies the highest possible house number assigned to the left side of a road. This feature is designed to allow for future addresses not yet mapped to be accurately geocoded.
+    Attribute:
+      Attribute_Label: RHI_M
+      Attribute_Definition: This is the Right High Min/Max Range. This signifies the highest possible house number assigned to the left side of a road. This feature is designed to allow for future addresses not yet mapped to be accurately geocoded.
+    Attribute:
+      Attribute_Label: RESN
+      Attribute_Definition: This is the ESN on the right side of the road. It is first calculated when adding a new street segment, by using the centroid of the segment and dropping a point 10m off the side to spatially see what ESN the ESZ polygon is in. ESN (Emergeny Service Number). ESZ (Emergency Service Zone).
+    Attribute:
+      Attribute_Label: LESN
+      Attribute_Definition: This is the ESN on the left side of the road. It is first calculated when adding a new street segment, by using the centroid of the segment and dropping a point 10m off the side to spatially see what ESN the ESZ polygon is in. ESN (Emergeny Service Number). ESZ (Emergency Service Zone).
+    Attribute:
+      Attribute_Label: LTWN
+      Attribute_Definition: This is the ESZ Community on the left side (based on addressing) of the road. It is first calculated when adding a new street segment, by offsetting the midpoint of the segment 10m off the side to spatially see what Community Name the ESZ polygon has. ESN (Emergeny Service Number). ESZ (Emergency Service Zone).
+    Attribute:
+      Attribute_Label: RTWN
+      Attribute_Definition: This is the ESZ Community on the right side (based on addressing) of the road. It is first calculated when adding a new street segment, by offsetting the midpoint of the segment 10m off the side to spatially see what Community Name the ESZ polygon has. ESN (Emergeny Service Number). ESZ (Emergency Service Zone).
+    Attribute:
+      Attribute_Label: PD
+      Attribute_Definition: Street Name Prefix Direction
+    Attribute:
+      Attribute_Label: PT
+      Attribute_Definition: This is the Prefix Type parsed and standardized from ALIName Field in the GeoNames table. It is updated by any changes made to the ALIName using the "Entire Street Name Editor" form, as parsed and standardized by the streets locator set in the x9GIS project settings. This is used to build locators for geocoding the approximate location of a 9-1-1 callers address along the street centerline.
+    Attribute:
+      Attribute_Label: SN
+      Attribute_Definition: Street Name without suffix or directional
+    Attribute:
+      Attribute_Label: ST
+      Attribute_Definition: Street Type i.e: rd, st, av, ln, etc...
+    Attribute:
+      Attribute_Label: SD
+      Attribute_Definition: This is the Suffix Direction parsed and standardized from ALIName Field in the GeoNames table. It is updated by any changes made to the ALIName using the "Entire Street Name Editor" form, as parsed and standardized by the streets locator set in the x9GIS project settings. This is used to build locators for geocoding the approximate location of a 9-1-1 callers address along the street centerline.
+    Attribute:
+      Attribute_Label: Alias1
+      Attribute_Definition:
+        This is an alternate name that has been applied to the street. Is created initially by typing the name into the "Entire Street Name Editor". Can be edited through the "Entire Street Name Editor". These values will show in the Street Segment Editor if UseGeonamesAliases is Yes. If it is marked to No, the "Street Segment Editor" can be used to edit the name by segment. This is used for identifying street segments that potentially
+        have a second name.
+    Attribute:
+      Attribute_Label: Alias2
+      Attribute_Definition: See Alias 1.
+    Attribute:
+      Attribute_Label: Alias3
+      Attribute_Definition: See Alias 1.
+    Attribute:
+      Attribute_Label: Alias4
+      Attribute_Definition: See Alias 1.
+    Attribute:
+      Attribute_Label: Alias5
+      Attribute_Definition: See Alias 1.
+    Attribute:
+      Attribute_Label: LZIP
+      Attribute_Definition: Left Zip Code
+    Attribute:
+      Attribute_Label: RZIP
+      Attribute_Definition: Right Zip Code
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.
+Metadata_Reference_Information:
+  Metadata_Date: 20170227
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: AK Associates
+        Contact_Person: Kevin Baillargeon
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing
+        Address: 311 Danielson Pike
+        City: North Scituate
+        State_or_Province: Rhode Island
+        Postal_Code: 02857
+        Country: USA
+      Contact_Electronic_Mail_Address: KevinBaillargeon@AKAssociates911.com
+      Contact_Instructions: Email preferred.
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
